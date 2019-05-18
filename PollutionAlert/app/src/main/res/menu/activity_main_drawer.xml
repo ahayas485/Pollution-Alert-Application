@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/markermapview"
+            android:icon="@drawable/markermapviewicon"
+            android:title="Marker MapView" />
+        <item
+            android:id="@+id/heatmapview"
+            android:icon="@drawable/heatmapviewicon"
+            android:title="Heat MapView" />
+
+        <item android:title="Forecast">
+            <menu>
+                <item
+                    android:id="@+id/airforecast"
+                    android:icon="@drawable/future"
+                    android:title="Air" />
+                <item
+                    android:id="@+id/waterforecast"
+                    android:icon="@drawable/future"
+                    android:title="Water" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

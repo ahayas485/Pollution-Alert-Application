@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:id="@+id/infowindow"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/infoplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="in the top jss dhnkds ksjndsn dsandjk"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
+
+        <ImageView
+            android:id="@+id/infoimage"
+            android:layout_margin="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/happy3"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/infostatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HEALTHY"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/infodescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:layout_margin="8dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="salkdklskldmkdmksamdksamdlk"
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="GOT IT"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

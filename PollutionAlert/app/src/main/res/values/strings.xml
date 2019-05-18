@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pollution Alert</string>
+    <string name="URL1">http://172.28.25.37/phph.php</string>
+    <string name="URL2">https://pollutionalert.000webhostapp.com/phph.php</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="good">Happy Breathing!</string>
+    <string name="moderate">Unusually sensitive people should consider reducing prolonged or heavy exertion outdoors</string>
+    <string name="unhealthyforsensitivegroups">Active children and adults, and people with lung disease such as asthma,
+        are advised to reduce prolonged or heavy exertion outdoors.</string>
+    <string name="unhealthy">Active children and adults, and people with lung disease such as asthma, are advised to reduce prolonged
+        or heavy exertion outdoors.Everyone else,especially children should
+        reduce prolonged or heavy exertion outdoors.</string>
+    <string name="veryunhealthy">Active children and adults, and people with lung disease such as asthma, are advised to reduce prolonged
+        or heavy exertion outdoors.Everyone else,especially children should
+        reduce prolonged or heavy exertion outdoors.</string>
+    <string name="hazardous">Everyone should avoid all physical activity outdoors.</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
